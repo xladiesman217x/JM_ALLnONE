@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Developing",
+        name: "Developing Idaho State RP",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -167,18 +167,18 @@ export const botConfig = {
     startingBalance: 0,
 
     // Maximum bank amount before upgrades (if upgrades are used).
-    baseBankCapacity: 100000,
+    baseBankCapacity: 10000000,
 
     // Daily reward amount.
-    dailyAmount: 100,
+    dailyAmount: 1000,
 
     // Work command random payout range.
     workMin: 10,
-    workMax: 100,
+    workMax: 500,
 
     // Beg command random payout range.
     begMin: 5,
-    begMax: 50,
+    begMax: 150,
 
     // Chance to succeed when robbing (0.4 = 40%).
     robSuccessRate: 0.4,
